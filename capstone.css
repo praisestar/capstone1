@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container { /*The container class was created to centralise the web page content. This was accomplished by setting the right and left margins to "auto"*/
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) { /*The @media rule helps to make the content associated with the class specified within it to be responsive to different devices*/
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+
+.horizontal-list ul {/*This class was created to display list content horizontally and not vertically as it would appear in a typical list fashion.*/
+	display: flex;
+  	flex-wrap: wrap;
+  	padding-left: 0;
+}
+.horizontal-list ul li {/*This represents its application on the list items*/
+	list-style: none;
+  	flex: 0 0 33.333333%;
+	align-self: center;
+	
+}
+p{
+	font-family: "verdana;
+	font-size: small;
+}
+
+.headers {
+	font-family: "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-style: italic;
+	color: darkblue;
+	
+}
+.pheaders {
+	font-family: "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	color: darkblue;
+	
+}
+hr { 
+	display: block; 
+	margin-before: 0.5em; 
+	margin-after: 0.5em; 
+	margin-start: auto; 
+	margin-end: auto; 
+	overflow: hidden; 
+	border-style: inset; 
+	border-width: 1px;
+}
+/*CSS rules for navigation bar display at the top of the page*/
+nav ul{
+	
+	display: flex;
+  	flex-wrap: wrap;
+  	padding-left: 0;
+	margin: 0;
+	flex: 0 0 33.333333%;
+	font-family: "Cambria", "Hoefler Text", "Liberation Serif", "Times", "Times New Roman", "serif";
+	background: #516301;
+	
+}
+nav ul li{
+	list-style-type: none;
+	position:relative;
+}
+nav ul li a{
+	display: flex;
+	padding: 15px;
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	background: #09F56E;
+	color: #000000;
+}
+/*CSS rule for h3 tags which contain anchor tags*/
+h3 a{
+	font-family: "Constantia", "Lucida Bright", "DejaVu Serif", "Georgia", "serif";
+	text-decoration: none;
+	color:white;
+}
+/*CSS rule with regards to what happens when the mouse goes over a link which follows a h3 tag*/
+h3 a:hover{
+	
+	color:gold;
+}
+/*CSS rule to display a shape with rounded edges to hold the contents of the web page.*/
+.corners {
+ 	border-radius: 25px;
+	border: 1px solid;
+	padding: 20px; 
+	width: 50%;
+	object-fit: cover;
+}
+
+.heading {
+  	font-size: 25px;
+  	margin-right: 25px;
+	font-family: "Impact", "Haettenschweiler", "Franklin Gothic Bold", "Arial Black", "sans-serif";
+}
+
+/*CSS rule for the user reviews*/
+
+/* Three column layout */
+.side {
+  float: left;
+  width: 15%;
+  margin-top:10px;
+}
+
+.middle {
+  margin-top:10px;
+  float: left;
+  width: 70%;
+}
+
+/* Place text to the right */
+.right {
+  text-align: right;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* The bar container */
+.bar-container {
+  width: 100%;
+  background-color: #f1f1f1;
+  text-align: center;
+  color: white;
+}
+
+/* Individual bars */
+.bar-5 {width: 60%; height: 18px; background-color: #04AA6D;}
+.bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+.bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+.bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+.bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+
+/* Responsive layout - make the columns stack on top of each other instead of next to each other */
+@media (max-width: 400px) {
+  .side, .middle {
+    width: 100%;
+  }
+  .right {
+    display: none;
+  }
+}
+
+.ptext{
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "Monaco", "Courier New", "monospace";
+	font-size: small;
+}
+/*CSS rule for marquee text animation*/
+.marquee {
+	display: block;
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", "Helvetica", "Arial", "sans-serif";
+}
+.marquee span{
+	display: inline-block;
+	padding-left: 100%;
+	-webkit-animation:scroll 10s infinite linear;
+}
+@-webkit-keyframes scroll{
+	0% {
+		-webkit-transform: translate(0,0);
+	}
+	100%{
+		-webkit-transform: translate(-100%,0)
+	}
+} /*End of CSS rule for marquee text animation*/
+/*Start of CSS rule to display products on product page.*/
+.productdisplay{
+  position: relative;
+  }
+/*CSS rule for checkbox used in displaying the products/team member information*/
+.prodinput{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity:0;
+  visibility: 0;
+}
+/*CSS rule for name of product/team member*/
+.producthead{
+  	background:#3F328F;
+  	color:white;
+  	padding:10px;
+  	position: relative;
+	font-family:"Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+}
+/*CSS rule for arrow beside name of product/team member before click by mouse*/
+label::before{
+  content:"";
+  display: inline-block;
+  border: 15px solid transparent;
+  border-left:20px solid white;
+	
+}
+/*CSS rule for arrow beside name of product/team member*/
+label{
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+/*CSS rule for text area associated with product/team member*/
+.ptext{
+  max-height:0px;
+  overflow: hidden;
+  transition:max-height 0.5s;
+  background-color: white;
+  box-shadow:0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+/*CSS rule for text associated with product/team member which is revealed when mouse is clicked on title*/
+.ptext p {
+  	margin-bottom: 1%;
+	margin-top: 1%;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+/*CSS rule to reveal the product details when the product title is clicked*/
+input:checked ~ h3 label::before{
+  	border-left:15px solid transparent;
+  	border-top:20px solid white;
+}
+/*CSS rule to specify the maximum amount of space dedicated to the textual content*/
+input:checked ~ h3 ~ .ptext{
+  max-height:2000px;
+}/*End of CSS rule to display products on product page.*/
+/*CSS rule for video content display*/
+.framed{
+	margin-left: 5%; 
+	margin-right: 5%; 
+	padding-bottom: 5%; 
+	border: none
+}
+.pfooter
+{
+	font-family: "helvetica";
+	font-size: small;
+}
+/*Start of CSS rule to display Contact form on contact us page.*/
+select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.forminput{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.submitinput {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}/*End of CSS rule to display contact form on contact us page*/
