@@ -207,6 +207,13 @@ h3 a:hover{
   visibility: 0;
 }
 /*CSS rule for name of product/team member*/
+.producthead{
+  	background:#00537a;
+  	color:white;
+  	padding:10px;
+  	position: relative;
+	font-family:"Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+}
 .productheadmobile{
   	background:#3a95cb;
   	color:white;
