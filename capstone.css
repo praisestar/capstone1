@@ -207,8 +207,29 @@ h3 a:hover{
   visibility: 0;
 }
 /*CSS rule for name of product/team member*/
-.producthead{
-  	background:#3F328F;
+.productheadmobile{
+  	background:#3a95cb;
+  	color:white;
+  	padding:10px;
+  	position: relative;
+	font-family:"Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+}
+.productheadsound{
+  	background:#ee9b9b;
+  	color:white;
+  	padding:10px;
+  	position: relative;
+	font-family:"Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+}
+.productheadcamera{
+  	background:#ff7f50;
+  	color:white;
+  	padding:10px;
+  	position: relative;
+	font-family:"Segoe", "Segoe UI", "DejaVu Sans", "Trebuchet MS", "Verdana", "sans-serif";
+}
+.productheadgaming{
+  	background:#b5b4e5;
   	color:white;
   	padding:10px;
   	position: relative;
