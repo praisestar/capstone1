@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>Capstone Website</title>
 	
-<link href="css/capstone.css" rel="stylesheet" type="text/css">
+<link href="capstone.css" rel="stylesheet" type="text/css">
 	
 
 
