@@ -28,7 +28,7 @@
 	<div class="container">
 		<div class="horizontal-list"><ul>
 		
-	<li><img src="img/Capstone-Logo.png" alt="" width="75%"></li>
+	<li><img src="Capstone-Logo.png" alt="" width="75%"></li>
 			<li>&nbsp;</li>
 			
 			
@@ -46,7 +46,7 @@
 	</div>
 	<div class="container">
 		
-		<img style="object-fit: cover" src ="img/woman-3083379_1920.jpg" alt="" width="100%" height="350px">
+		<img style="object-fit: cover" src ="woman-3083379_1920.jpg" alt="" width="100%" height="350px">
 		
 	
 	
@@ -144,7 +144,7 @@
 	</div>
 
 	<div class="container">
-		<p class="pfooter">Copyright 2021: Capstone. All Rights Reserved. <a href="Privacy and security policy.txt" target="_blank">Privacy Policy</a> and <a href="Terms and conditions.txt" target="_blank">Terms and Conditions.</a></p>
+		<p class="pfooter">Copyright 2021: Capstone. All Rights Reserved. <a href="privacy.html" target="_blank">Privacy Policy</a> and <a href="termsandconditions.html" target="_blank">Terms and Conditions.</a></p>
 	
 	
 	</div>
@@ -152,8 +152,8 @@
 	<table>
 		<tr>
 		
-			<td><img src ="img/AWS_Restart_Logo.jpg" alt="" width="50%"></td>
-			<td><img src ="img/In40.jpg" alt="" width="20%"></td>
+			<td><img src ="AWS_Restart_Logo.jpg" alt="" width="50%"></td>
+			<td><img src ="In40.jpg" alt="" width="20%"></td>
 			
 			</tr></table></div>
 	
