@@ -43,10 +43,10 @@ The benefits include:
 
 ### Built With
 
-Adobe Dreamweaver as the IDE
-HTML
-CSS
-PHP - For the contact us form submission.
+- Adobe Dreamweaver as the IDE
+- HTML
+- CSS
+- PHP - For the contact us form submission.
 
 
 
@@ -54,12 +54,12 @@ PHP - For the contact us form submission.
 ## Getting Started
 
 To design this website:
-Install Adobe Dreamweaver (it's a subscription service)
-Install wamp server to run the PHP content.
-Create a folder for your project in the www folder in the wamp folder.
-Create a new site on Dreamweaver and specify the location of your website which is the location of your project folder.
-Create a folder to store your css file in your project folder.
-Create a folder to store your images in your project folder.
+- Install Adobe Dreamweaver (it's a subscription service)
+- Install wamp server to run the PHP content.
+- Create a folder for your project in the www folder in the wamp folder.
+- Create a new site on Dreamweaver and specify the location of your website which is the location of your project folder.
+- Create a folder to store your css file in your project folder.
+- Create a folder to store your images in your project folder.
 
 ### Prerequisites
 To design this website you need to have:
@@ -72,15 +72,6 @@ To design this website you need to have:
 - Alan Scherer provided the textual content and images for the website and provided valuable feedback on the website design.
 - Ninioritse Tuedon developed the website.
 - Abraham Musinga provided valuable feedback on the web design as well as some of the web content.
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
 
 <!-- CONTACT -->
 ## Contact
